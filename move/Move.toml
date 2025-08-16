@@ -1,0 +1,10 @@
+[package]
+name = "EventTicketing"
+version = "1.0.0"
+edition = "2024.beta"
+
+[addresses]
+event_owner = "0x..." # Replace with your account address after creation
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
